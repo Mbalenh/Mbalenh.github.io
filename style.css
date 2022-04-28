@@ -161,7 +161,7 @@ span{
     background: #c41d11;
     transition: .4s;
 }
-.container .hero-text button{
+ .container .hero-text button{
     color: #eee ;
     background: #c41d11;
     font-size: 16px ;
@@ -181,6 +181,350 @@ span{
     transition: .4s;
 
 }
+/* abt me */
+#about {
+    background-color: lightcoral ;
+    width: 100%;
+    padding: 100px 0px;
+}
+.pic{
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 1em
+}
+.about-text{
+    width: 500px;
+}
+
+.main{
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.about-text h2{
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.about-text p{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+.about-text a{
+    display: inline-block;
+    background: transparent;
+    border: 2px solid #c41d11;
+    padding: 10px 18px;
+    border-radius:15px;
+    line-height: 1.3;
+    color:#eee;
+    font-weight: 500;
+    margin: 30px 0;
+    text-decoration: none;
+}
+.about-text a:hover{
+    background-color: transparent;
+    border: 2px solid #c41d11;
+    cursor: pointer;
+    background: #c41d11 ;
+}
+  /*===================================education============================================  */
+    #education{
+        background-color: lightcoral ;
+        width: 100%;
+        padding: 100px 0px; 
+    }
+    .main-edu{
+        width: 1280px;
+        max-width: 95%;
+        margin: 0 auto;
+        padding: 0px;
+    }
+    .place{
+        /* box-model */
+        border: 1px solid chocolate;
+        padding: 0.5em;
+        margin: 0.5em;
+        border-radius: 1em;
+    }
+    .pic1{
+        display: inline;
+        vertical-align: top;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        padding: 2px;
+        height: 300px;
+        width: 300px;
+        border-radius: 1em;
+    }
+    .pic2{
+        display: inline;
+        vertical-align: top;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        padding: 2px;
+        height: 300px;
+        width: 300px;
+        border-radius: 1em; 
+    
+    }
+    .Education{
+        display: flex;
+    }
+    .section-title{
+        color: white;
+        font-size: 50px;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+        /* text-align: center;
+        align-items: center;
+        justify-content: center; */
+    }
+    .Degree1 p{
+        color: white;
+    font-size: 15px;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    line-height: 25px; 
+    }
+   
+    .Degree2 p{
+        color: white;
+        font-size: 15px;
+        margin-bottom: 40px;
+        letter-spacing: 2px;
+        line-height: 25px; 
+    }
+    
+     h3{
+        color: white;
+        font-size: 20px;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+    }
+
+  /* =============end education================================================================ */
+  /* ===============================projects=================================================== */
+ #projects{
+    background-color: lightcoral ;
+    width: 100%;
+    padding: 100px 0px; 
+ }
+ .title{
+        color: white;
+        font-size: 50px;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+ }
+ 
+  .proj{
+    /* box-model */
+    border: 1px solid chocolate;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 1em;
+}
+.pro1{
+    display: inline;
+    vertical-align: top;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 2px;
+    height: 300px;
+    width: 300px;
+    border-radius: 1em;
+}
+.Place1 a{
+    display: inline-block;
+    background: transparent;
+    border: 2px solid #c41d11;
+    padding: 10px 18px;
+    border-radius:15px;
+    line-height: 1.3;
+    color:#eee;
+    font-weight: 500;
+    margin: 30px 0;
+    text-decoration: none;
+}
+.Place1 a:hover{
+    background-color: transparent;
+    border: 2px solid #c41d11;
+    cursor: pointer;
+    background: #c41d11 ;
+}
+.pro2{
+    display: inline;
+    vertical-align: top;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding: 2px;
+    height: 300px;
+    width: 300px;
+    border-radius: 1em; 
+
+}
+.Place2 a{
+    display: inline-block;
+    background: transparent;
+    border: 2px solid #c41d11;
+    padding: 10px 18px;
+    border-radius:15px;
+    line-height: 1.3;
+    color:#eee;
+    font-weight: 500;
+    margin: 30px 0;
+    text-decoration: none;
+}
+.Place2 a:hover{
+    background-color: transparent;
+    border: 2px solid #c41d11;
+    cursor: pointer;
+    background: #c41d11 ;
+}
+.pro3{
+    display: inline;
+    vertical-align: top;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding: 2px;
+    height: 300px;
+    width: 300px;
+    border-radius: 1em; 
+
+}
+.Place3 a{
+    display: inline-block;
+    background: transparent;
+    border: 2px solid #c41d11;
+    padding: 10px 18px;
+    border-radius:15px;
+    line-height: 1.3;
+    color:#eee;
+    font-weight: 500;
+    margin: 30px 0;
+    text-decoration: none;
+}
+.Place3 a:hover{
+    background-color: transparent;
+    border: 2px solid #c41d11;
+    cursor: pointer;
+    background: #c41d11 ;
+}
+.main-pro{
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0px;
+}
+h3{
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.history{
+    display: flex;
+}
+p{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    line-height: 25px; 
+}
+  /* ==========================================ends=============================================== */
+/* contact section */
+#contacts{
+    background-color: lightcoral ;
+    width: 100%;
+    padding: 100px 0px; 
+}
+.contact{
+width: 1280px;
+max-width: 95%;
+margin: 0 auto;
+padding: 0px;
+}
+.cont1{
+display: inline;
+vertical-align: top;
+margin-left: 5px;
+margin-bottom: 5px;
+padding: 2px;
+height: 100px;
+width: 100px;
+border-radius: 1em; 
+
+}
+.cont2{
+display: inline;
+vertical-align: top;
+margin-left: 5px;
+margin-bottom: 5px;
+padding: 2px;
+height: 100px;
+width: 100px;
+border-radius: 1em; 
+
+}
+.cont3{
+display: inline;
+vertical-align: top;
+margin-left: 5px;
+margin-bottom: 5px;
+padding: 2px;
+height: 100px;
+width: 100px;
+border-radius: 1em; 
+
+}
+.details{
+/* box-model */
+border: 1px solid chocolate;
+padding: 0.5em;
+margin: 0.5em;
+border-radius: 1em;
+}
+.contact h2{
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin-bottom: 5px;
+    color: white;
+}
+.contact h3{
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin-bottom: 5px;
+    color: white;
+}
+.sectiontitle{
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.contact{
+    display: flex;
+}
+
 @media screen and (max-width :1000px) {
     nav .hamb{
         display: initial;
@@ -244,7 +588,56 @@ span{
         right: 0;
 
     }
-
+    .main{
+        flex-direction: column;
+    }
+    .main-edu{
+        flex-direction: column;
+    
+    }
+    .about-img{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .pic{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .main-pro{
+        flex-direction: column;
+    }
+    .history{
+        flex-direction: column;  
+    }
+    .Education{
+        flex-direction: column;
+    }
+    .about-text h1{
+        text-align: center;
+    }
+    .main-pro h1{
+        text-align: center;
+    }
+    .contact{
+      flex-direction: column;
+    }
+    .sectiontitle{
+        text-align: center;
+    }
+    .title{
+        text-align: center;
+    }
+    .section-title{
+        text-align: center;
+    }
+    .about-text{
+        width: 400px;
+    }
+    .about-text h2{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
