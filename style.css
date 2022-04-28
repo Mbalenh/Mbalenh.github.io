@@ -186,9 +186,10 @@ span{
     background-color: lightcoral ;
     width: 100%;
     padding: 100px 0px;
+    min-height: 100vh;
 }
 .pic{
-    width: 400px;
+    width: 300px;
     height: auto;
     object-fit: cover;
     align-items: center;
@@ -251,6 +252,7 @@ span{
         background-color: lightcoral ;
         width: 100%;
         padding: 100px 0px; 
+        min-height: 100vh;
     }
     .main-edu{
         width: 1280px;
@@ -327,6 +329,7 @@ span{
     background-color: lightcoral ;
     width: 100%;
     padding: 100px 0px; 
+    min-height: 100vh;
  }
  .title{
         color: white;
@@ -456,6 +459,7 @@ p{
     background-color: lightcoral ;
     width: 100%;
     padding: 100px 0px; 
+    min-height: 100vh;
 }
 .contact{
 width: 1280px;
@@ -514,6 +518,7 @@ border-radius: 1em;
     font-weight: 100;
     margin-bottom: 5px;
     color: white;
+    text-transform: lowercase;
 }
 .sectiontitle{
     color: white;
@@ -590,6 +595,7 @@ border-radius: 1em;
     }
     .main{
         flex-direction: column;
+        min-height: 100vh;
     }
     .main-edu{
         flex-direction: column;
@@ -637,6 +643,16 @@ border-radius: 1em;
         text-align: center;
         justify-content: center;
         align-items: center;
+    }
+    .contact h3{
+        font-size: 1rem;
+        font-weight: 100;
+        margin-bottom: 5px;
+        color: white;
+        text-transform: lowercase;
+    }
+    .about-text{
+        width: 300px;
     }
 }
 
